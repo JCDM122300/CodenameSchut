@@ -13,6 +13,9 @@ GameObject:
   - component: {fileID: 8491177953436318556}
   - component: {fileID: 8491177953436318555}
   - component: {fileID: 5352352467476611221}
+  - component: {fileID: 4156557076549024738}
+  - component: {fileID: 4735120343317816940}
+  - component: {fileID: -7397694365056322247}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -89,7 +92,7 @@ SphereCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8491177953436318554}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.5
@@ -104,5 +107,42 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e2bc0516025409d48a2b1747947e1260, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &4156557076549024738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8491177953436318554}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95686c0eb30a5604885b8fac61b91bf4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &4735120343317816940
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8491177953436318554}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c470b3eabf8382947b0d668de5864ce6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: -5
+--- !u!114 &-7397694365056322247
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8491177953436318554}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd74e79aff7758d489df741dcc6605b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
