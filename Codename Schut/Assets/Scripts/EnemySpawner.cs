@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class EnemySpawner : MonoBehaviour
 {
-    private float spawnRangeX = 16.5f;
+    private float spawnRangeX = 10f;
     private float spawnPosZ = 20;
     private float spawnPosY = 3.25f;
     private float StartDelay = 2;
