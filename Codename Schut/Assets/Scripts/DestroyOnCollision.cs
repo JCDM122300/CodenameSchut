@@ -17,7 +17,9 @@ public class DestroyOnCollision : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
+
         //One thing I need to do is figure out how to get the bullet to ignore the player since it destroys it too
+        GameOverScript.IsGameOver = true;
         Debug.Log("Game Over");
         Destroy(gameObject);
         Destroy(other.gameObject);

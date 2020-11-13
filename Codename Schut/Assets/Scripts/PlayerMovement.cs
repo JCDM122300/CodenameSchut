@@ -1,9 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
+    
     public float horizontalInput;
     public float Speed = 10f;
     public float xRange = 10f;
@@ -40,7 +42,20 @@ public class PlayerMovement : MonoBehaviour
         }
 
         //Movement for player
-        horizontalInput = Input.GetAxis("Horizontal");
-        transform.Translate(Vector3.right * horizontalInput * Time.deltaTime * Speed);
+       
+        if (!GameOverScript.IsGameOver)
+        {
+            horizontalInput = Input.GetAxis("Horizontal");
+            transform.Translate(Vector3.right * horizontalInput * Time.deltaTime * Speed);
+        }
+        else
+        {
+            if (Input.GetKeyDown(KeyCode.R))
+            {
+                SceneManager.LoadScene("GameScene");
+                GameOverScript.IsGameOver = false;
+            }
+
+        }
     }
 }
