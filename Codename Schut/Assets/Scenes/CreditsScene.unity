@@ -571,7 +571,8 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: "-Sound Effects Made By Me\n-Space Skyboxes Made By Prodigious Creations
     on the Unity Asset Store: Vast Outer Space\n- Gameplay Music Created by Volts
-    Supreme on the Unity Asset Store: Absolute Space & Sci-Fi Music Free Sample\n "
+    Supreme on the Unity Asset Store: Absolute Space & Sci-Fi Music Free Sample\n-Spaceship
+    Models Made by Ebal Studios on the Unity Asset Store\n "
 --- !u!222 &1200513434
 CanvasRenderer:
   m_ObjectHideFlags: 0
